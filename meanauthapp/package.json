@@ -1,0 +1,36 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "authentication app developed using MEAN stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishnusRepo/meanauthapp.git"
+  },
+  "keywords": [
+    "Angular",
+    "Node",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Sai Vishnu Muvvala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VishnusRepo/meanauthapp/issues"
+  },
+  "homepage": "https://github.com/VishnusRepo/meanauthapp#readme"
+}
